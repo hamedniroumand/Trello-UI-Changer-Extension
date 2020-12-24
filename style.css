@@ -1,0 +1,203 @@
+.checklist {
+  direction: rtl !important;
+}
+
+.window-module .empty-list {
+  margin: 8px 40px 0 0 !important;
+}
+
+a.button-link {
+  direction: ltr !important;
+}
+
+.current-comment p {
+  direction: rtl !important;
+}
+
+
+
+#board {
+  cursor: move !important; /* fallback if grab cursor is unsupported */
+  cursor: grab !important;
+  cursor: -moz-grab !important;
+  cursor: -webkit-grab !important;
+}
+
+#board:active {
+  cursor: grabbing !important;
+  cursor: -moz-grabbing !important;
+  cursor: -webkit-grabbing !important;
+}
+
+.js-due-date-badge {
+  direction: rtl !important;
+}
+
+.badge-iconicon-sm icon-clock badge-due-icon{
+  line-height: 1.5 !important;
+}
+
+.list-wrapper {
+  height: 96% !important;
+}
+
+.window-module {
+  direction: rtl !important;
+  clear: both !important;
+  margin-bottom: 24px !important;
+  position: relative !important;
+}
+.window-module.noBottomMargin {
+  margin-bottom: 0 !important;
+}
+.window-module:empty {
+  display: none !important;
+}
+.window-module-panel,
+.window-module-title {
+  padding: 8px 0 !important;
+  position: relative !important;
+  margin: 0 40px 4px 0 !important;
+}
+.window-module-title {
+  border-bottom: 1px solid rgba(9, 30, 66, 0.13) !important;
+}
+.window-module-title h3 {
+  display: inline-block !important;
+  width: auto !important;
+  margin: 0 !important;
+  min-height: 18px !important;
+  min-width: 40px !important;
+}
+.window-module-title-options {
+  float: left !important;
+  margin-left: 2px !important;
+}
+.window-module-title-no-divider {
+  border-bottom: none !important;
+}
+.window-module-title-icon {
+  right: -40px !important;
+  position: absolute !important;
+  top: 12px !important;
+}
+.window-module-title-option {
+  cursor: pointer !important;
+  right: auto !important;
+  position: absolute !important;
+  padding: 8px !important;
+  left: 0 !important;
+  top: 0 !important;
+  visibility: hidden !important;
+}
+.window-module-title:hover .window-module-title-option {
+  visibility: visible !important;
+}
+
+.phenom {
+  margin-right: 40px !important;
+  min-height: 32px !important;
+  padding: 8px 0 !important;
+  position: relative !important;
+}
+.phenom-creator,
+.phenom-icon {
+  height: 32px !important;
+  right: -40px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 32px !important;
+}
+.phenom-desc {
+  margin: 0 !important;
+  word-wrap: break-word !important;
+}
+.phenom-meta {
+  display: inline-block !important;
+  font-size: 12px !important;
+  margin: 0 !important;
+  min-width: 110px !important;
+}
+.phenom-meta a.date,
+.phenom-meta a.quiet {
+  text-decoration: none !important;
+}
+.phenom-meta a.date:hover,
+.phenom-meta a.quiet:hover {
+  text-decoration: underline !important;
+}
+.phenom-date {
+  font-size: 12px !important;
+  line-height: 14px !important;
+  margin: 0 0 6px !important;
+  min-width: 105px !important;
+}
+.phenom-date a.date {
+  text-decoration: none !important;
+}
+.phenom-date a.date:hover {
+  text-decoration: underline !important;
+}
+
+.new-comment {
+  position: relative !important;
+  margin: 0 40px 8px 0 !important;
+}
+.new-comment .member {
+  position: absolute !important;
+  right: -40px !important;
+}
+
+.new-comment.is-focused:not(.is-show-controls) .comment-box,
+.new-comment.is-show-controls .comment-box {
+  padding-bottom: 56px !important;
+}
+.new-comment.is-focused:not(.is-show-controls) .comment-box-options,
+.new-comment.is-focused:not(.is-show-controls) .comment-controls,
+.new-comment.is-show-controls .comment-box-options,
+.new-comment.is-show-controls .comment-controls {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.new-comment:not(.is-focused):not(.is-show-controls) .comment-frame:hover {
+  cursor: pointer !important;
+  box-shadow: 0 1px 1px rgba(9, 30, 66, 0.25), 0 0 0 1px rgba(9, 30, 66, 0.08) !important;
+}
+.new-comment:not(.is-focused):not(.is-show-controls) .comment-box-input {
+  padding: 8px 12px !important;
+  margin: -8px -12px !important;
+}
+.new-comment:not(.is-focused):not(.is-show-controls) .comment-box-input:hover {
+  cursor: pointer !important;
+}
+.new-comment.is-focused .comment-frame {
+  box-shadow: 0 4px 8px -2px rgba(9, 30, 66, 0.25),
+    0 0 0 1px rgba(9, 30, 66, 0.08) !important;
+}
+
+.mango_rtl {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+.mango_ltr {
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+.current-comment.js-friendly-links.js-open-card {
+  direction: rtl !important;
+}
+
+.edit-controls {
+  direction: ltr !important;
+}
+
+.reactions-add {
+  margin-left: 16px !important;
+  margin-right: 0 !important;
+}
+
+.icon-sm.icon-add-reaction.reactions-add-icon{
+  line-height: 24px !important;
+}
