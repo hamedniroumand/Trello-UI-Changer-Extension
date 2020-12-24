@@ -12,7 +12,6 @@
       "16": "icon.png",
       "48": "icon.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqWpjVUkMkoZd0MIc9JFai/L2ehSHirBWVU5K87fK1tT+UY9ID3zZpxHTPn5+z2sGLABCw3PnTy/PDb1eG8P4JhihwC2q30BmdDAfPNzLvK7HBuii2a82HWphoL7FZPGuVpt9P8AWOePhyAZZVIyNCg8jUpthhCISE7ltqv5uegs5P/4FRMkPcQ7somPXEQsIeiGsxmhzQ7KiNHChPn+5gq4jWxkARoqN4GtTfKUM4v19bT3PcfbRXUQDBfCAXxwrGxQxLKs57wlvvuEHJSDxiay85Cq1LizGMWgknZDcmKNtPoQy/PXIhr0P6FK5/BrLaoccFVKP7BAP6rSYgVV/HQIDAQAB",
    "manifest_version": 2,
    "name": "Mango Agency Productivity Tool",
    "page_action": {
